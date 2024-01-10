@@ -1,0 +1,99 @@
+name: hh_express
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # packages
+  cupertino_icons: ^1.0.2
+  dio: ^5.1.2
+  get_it: ^7.6.0
+  cached_network_image: ^3.2.3
+  flutter_bloc: ^8.1.3
+  firebase_core: ^2.13.0
+  firebase_messaging: ^14.6.1
+  flutter_native_splash: ^2.3.0
+  shimmer: ^3.0.0
+  equatable: ^2.0.5
+  flutter_svg: ^2.0.7
+  flutter_screenutil: ^5.8.1
+  go_router: ^7.0.2
+  flutter_secure_storage: ^8.0.0
+  google_fonts: ^4.0.4
+  url_launcher: ^6.1.11
+  extended_wrap: ^0.1.5
+  intl: ^0.18.0
+  injectable: ^2.1.2
+  flutter_localizations:
+    sdk: flutter
+  # animated_text_kit: ^4.2.2
+  flutter_keyboard_size: ^1.0.1
+  photo_view: ^0.14.0
+  dynamic_height_grid_view: ^0.0.3
+  flutter_staggered_grid_view: ^0.6.2
+  json_annotation: ^4.8.1
+  # firebase_storage: ^11.2.6
+  path_provider: ^2.1.1
+  flutter_avif: ^1.4.0
+  dart_pusher_channels: ^1.1.1
+  image_picker: ^1.0.4
+  web_socket_channel: ^2.4.0
+  another_flushbar: ^1.12.30
+  restart_app: ^1.2.1
+  cached_video_player_fork: ^2.1.1
+
+dev_dependencies:
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.6
+  injectable_generator: ^2.1.6
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/fonts/Rubik/
+    - assets/fonts/
+    - assets/images/
+    - assets/icons/navBarIcons/
+    - assets/icons/profileIcons/
+    - assets/icons/
+
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik/Rubik-Black.ttf
+          weight: 700
+        - asset: assets/fonts/Rubik/Rubik-ExtraBold.ttf
+          weight: 600
+        - asset: assets/fonts/Rubik/Rubik-Bold.ttf
+          weight: 500
+        - asset: assets/fonts/Rubik/Rubik-SemiBold.ttf
+          weight: 400
+        - asset: assets/fonts/Rubik/Rubik-Medium.ttf
+          weight: 300
+        - asset: assets/fonts/Rubik/Rubik-Regular.ttf
+          weight: 200
+        - asset: assets/fonts/Rubik/Rubik-Light.ttf
+          weight: 100
+    - family: Nokora
+      fonts:
+        - asset: assets/fonts/Nokora-Bold.ttf
+          weight: 700
